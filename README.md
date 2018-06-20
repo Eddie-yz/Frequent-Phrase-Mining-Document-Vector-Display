@@ -2,10 +2,13 @@
 A phrase mining implementation of ToPMine framework &amp; Using MDS algorithm to display the document vector.
 
 Reference Paper：
+
 El-Kishky, A., Song, Y., Voss, C. R., Voss, C. R., & Han, J. (2014). Scalable topical phrase mining from text corpora. Proceedings of the Vldb Endowment, 8(3), 305-316.
+
 http://www.vldb.org/pvldb/vol8/p305-ElKishky.pdf
 
 DIRECTORY:
+
 rawDocData: 该文件夹下有5个独立的文件夹，分别存放5位作者的全部书籍
 
 docAfterPreprocess: 程序运行后将在该文件夹下生成5个txt文档，每个文档存放经过预处理后的一位作者的全部书籍内容，文档内每一行为原书籍中的一句话
@@ -16,7 +19,9 @@ DBLP: 存放DBLP数据库中的30万条题目数据及程序输出
 
 
 
+
 CODE:
+
 DocPreprocess.py: 其中的docPrep类负责预处理每位作者的所有书籍，将每一句话变成一行存放在新生成的文档中
 
 PhraseMining.py: 其中的PhraseMining类负责从每个预处理后的文档中挖掘frequent phrases并将其存于新生成的文档中
